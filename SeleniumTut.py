@@ -8,7 +8,7 @@ from selenium import webdriver
 driver=webdriver.Chrome()
 driver=webdriver.Edge()
 driver=webdriver.Ie()
-driver = webdriver.Firefox()
+driver=webdriver.Firefox()
 
 # Chrome options
 from selenium.webdriver.chrome.options import Options

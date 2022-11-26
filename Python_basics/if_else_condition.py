@@ -8,7 +8,7 @@ else:
 
 #
 
-a=10.1
+a=0
 print(a)
 if a:
     print("a is one")

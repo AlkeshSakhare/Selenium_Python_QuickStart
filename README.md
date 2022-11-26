@@ -14,4 +14,6 @@ Code samples: https://github.com/SeleniumHQ/seleniumhq.github.io/tree/trunk/exam
 
 Python Tutorials : https://www.youtube.com/watch?v=spX3jkOTOU8&list=PLUDwpEzHYYLsX-gCM7sAp43NF6Y_1rBb_
 
-Selenium Tutorials: https://www.youtube.com/watch?v=2DD-ynCIZ4w&list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa
+Selenium Doc: https://selenium-python.readthedocs.io
+
+Selenium Tutorials: https://www.youtube.com/watch?v=2DD-ynCIZ4w&list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa&index=1

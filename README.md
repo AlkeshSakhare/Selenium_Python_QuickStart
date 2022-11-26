@@ -8,4 +8,8 @@ pip install webdriver-manager
 
 pip install selenium
 
-https://www.youtube.com/watch?v=2DD-ynCIZ4w&list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa
+Demo Site: https://www.selenium.dev/selenium/web/
+
+Code samples: https://github.com/SeleniumHQ/seleniumhq.github.io/tree/trunk/examples/python
+
+Tutorials: https://www.youtube.com/watch?v=2DD-ynCIZ4w&list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa

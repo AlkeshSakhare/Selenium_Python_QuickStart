@@ -16,4 +16,10 @@ Python Tutorials : https://www.youtube.com/watch?v=spX3jkOTOU8&list=PLUDwpEzHYYL
 
 Selenium Doc: https://selenium-python.readthedocs.io
 
+Cheatsheet:
+
+1. https://dev.to/razgandeanu/selenium-cheat-sheet-9lc
+
+2. https://app.endtest.io/guides/docs/how-to-create-web-tests/
+
 Selenium Tutorials: https://www.youtube.com/watch?v=2DD-ynCIZ4w&list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa&index=1

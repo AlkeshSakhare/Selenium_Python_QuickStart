@@ -14,6 +14,10 @@ print("Div: ",c)
 # boolean
 c=a==b
 print("Compare a==b : ",c)
-
 c=a!=b
 print("Compare a!=b: ",c)
+
+
+# string
+a="alkesh"
+print(a)

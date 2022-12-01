@@ -17,3 +17,8 @@ print("length of dictionary using len(): ", len(emp))
 print("accessing age before update: ", emp["age"])
 emp["age"] = 21  # updating value
 print("accessing age after update: ", emp["age"])
+
+# deleting dictionary
+print("Accessing before deleting : ", emp)
+del emp
+print("Accessing after deleting : ",emp)

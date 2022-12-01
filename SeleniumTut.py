@@ -8,7 +8,7 @@ from selenium import webdriver
 driver=webdriver.Chrome()
 driver=webdriver.Edge()
 driver=webdriver.Ie()
-driver = webdriver.Firefox()
+driver=webdriver.Firefox()
 
 # Chrome options
 from selenium.webdriver.chrome.options import Options
@@ -82,4 +82,4 @@ element.text
 # Thread.sleep
 import time
 
-time.sleep(2) # no should be in seconds
+time.sleep(2) # no. should be in seconds

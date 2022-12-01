@@ -82,4 +82,4 @@ element.text
 # Thread.sleep
 import time
 
-time.sleep(2) # no should be in seconds
+time.sleep(2) # no. should be in seconds

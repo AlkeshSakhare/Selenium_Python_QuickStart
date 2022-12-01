@@ -3,8 +3,13 @@ class Constructor:
     def __init__(self): # constructor
         print("Im constructor")
     
-    def method(self):
+    def method(self): # method
         print("Im method")
+    
+    def __str__(self): # string representation of object -> toString() of Java
+        return "alkesh"
+        
 
 obj=Constructor() # constructor is called
-obj.method()
+obj.method() # calling method
+print(obj) # calling toString method

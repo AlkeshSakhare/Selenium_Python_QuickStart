@@ -58,8 +58,9 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-1670075688303	geckodriver	INFO	Listening on 127.0.0.1:63256
-1670075691388	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63257" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Alkesh\\AppData\\Local\\Temp\\rust_mozprofileNEHRUX"
+1670075791832	Marionette	INFO	Stopped listening on port 63096
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "63257" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Alkesh\\AppData\\Local\\Temp\\rust_mozprofileNEHRUX"
 1670075691966	Marionette	INFO	Marionette enabled
 1670075692056	Marionette	INFO	Listening on port 63270
 WebDriver BiDi listening on ws://127.0.0.1:63257
@@ -75,3 +76,19 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+1670075793547	Marionette	INFO	Stopped listening on port 63270
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670076313567	geckodriver	INFO	Listening on 127.0.0.1:63807
+1670076316670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "63808" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Alkesh\\AppData\\Local\\Temp\\rust_mozprofileQ3nwH6"
+*** You are running in headless mode.
+1670076318382	Marionette	INFO	Marionette enabled
+1670076318390	Marionette	INFO	Listening on port 63824
+WebDriver BiDi listening on ws://127.0.0.1:63808
+Read port: 63824
+1670076320003	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Alkesh\\AppData\\Local\\Temp\\rust_mozprofileQ3nwH6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63808/devtools/browser/f4534452-c949-46a3-99f2-391c41d04e45
+JavaScript warning: https://pagead2.googlesyndication.com/bg/api979c0EJY6QQNrS8TSWwgKrshdt-vRMqEtOqF-hYY.js line 2 > eval line 5834 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/api979c0EJY6QQNrS8TSWwgKrshdt-vRMqEtOqF-hYY.js line 2 > eval line 3067 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/api979c0EJY6QQNrS8TSWwgKrshdt-vRMqEtOqF-hYY.js line 2 > eval line 128 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

@@ -1,0 +1,17 @@
+1670069863808	geckodriver	INFO	Listening on 127.0.0.1:56348
+1670069866755	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56349" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Alkesh\\AppData\\Local\\Temp\\rust_mozprofileowkGxU"
+1670069874003	Marionette	INFO	Marionette enabled
+1670069874016	Marionette	INFO	Listening on port 56363
+Read port: 56363
+WebDriver BiDi listening on ws://127.0.0.1:56349
+1670069874698	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Alkesh\\AppData\\Local\\Temp\\rust_mozprofileowkGxU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56349/devtools/browser/85d4eaee-8a9a-43c5-82f3-5502aa07c5f8
+JavaScript error: https://file-examples.com/wp-content/themes/file-examples/vendor/jquery/jquery.min.js, line 2: Error: Syntax error, unrecognized expression: https://file-examples.com/wp-content/uploads/2017/02/file-sample_100kB.doc
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 6548 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1670071463889	Marionette	INFO	Stopped listening on port 56363
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

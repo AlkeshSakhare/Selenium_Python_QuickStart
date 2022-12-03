@@ -58,3 +58,20 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+1670075688303	geckodriver	INFO	Listening on 127.0.0.1:63256
+1670075691388	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63257" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Alkesh\\AppData\\Local\\Temp\\rust_mozprofileNEHRUX"
+1670075691966	Marionette	INFO	Marionette enabled
+1670075692056	Marionette	INFO	Listening on port 63270
+WebDriver BiDi listening on ws://127.0.0.1:63257
+Read port: 63270
+1670075692793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Alkesh\\AppData\\Local\\Temp\\rust_mozprofileNEHRUX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63257/devtools/browser/1c11cc8b-a1f7-4b7d-9b30-947b7ecd3d61
+JavaScript warning: https://pagead2.googlesyndication.com/bg/api979c0EJY6QQNrS8TSWwgKrshdt-vRMqEtOqF-hYY.js line 2 > eval line 353 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://file-examples.com/wp-content/themes/file-examples/vendor/jquery/jquery.min.js, line 2: Error: Syntax error, unrecognized expression: https://file-examples.com/wp-content/uploads/2017/10/file-sample_150kB.pdf
+JavaScript warning: https://pagead2.googlesyndication.com/bg/api979c0EJY6QQNrS8TSWwgKrshdt-vRMqEtOqF-hYY.js line 2 > eval line 445 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 

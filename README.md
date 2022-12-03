@@ -8,6 +8,10 @@ pip install webdriver-manager
 
 pip install selenium
 
+pip install pywin32
+
+pip install requests
+
 Demo Site: https://www.selenium.dev/selenium/web/
 
 Code samples: https://github.com/SeleniumHQ/seleniumhq.github.io/tree/trunk/examples/python

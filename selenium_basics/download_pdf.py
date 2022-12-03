@@ -10,20 +10,24 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
 path = os.getcwd()
-url = "https://file-examples.com/index.php/sample-documents-download/sample-doc-download/"
+url = "https://file-examples.com/index.php/sample-documents-download/sample-pdf-download/"
 
 
 def chrome_setup():
-    prefs = {"download.default_directory": path}
+    prefs = {"download.default_directory": path,
+             "plugins.always_open_pdf_externally": True}
     options = webdriver.ChromeOptions()
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    options.add_experimental_option("prefs", prefs)
+    options.add_experimental_option(
+        'excludeSwitches', ['enable-logging'])  # to disable logs
+    options.add_experimental_option("prefs", prefs)  # to add download pref
+
     driver = webdriver.Chrome(options=options)
     return driver
 
 
 def edge_setup():
-    prefs = {"download.default_directory": path}
+    prefs = {"download.default_directory": path,
+             "plugins.always_open_pdf_externally": True}
     options = webdriver.EdgeOptions()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
     options.add_experimental_option("prefs", prefs)
@@ -37,7 +41,8 @@ def firefox_setup():
     options.set_preference("browser.download.manager.showWhenStarting", False)
     options.set_preference("browser.download.dir", path)
     options.set_preference(
-        "browser.helperApps.neverAsk.saveToDisk", "application/msword")
+        "browser.helperApps.neverAsk.saveToDisk", "application/pdf")
+    options.set_preference("pdfjs.disabled", True)  # for pdf
     driver = webdriver.Firefox(options=options)
     return driver
 
@@ -48,7 +53,7 @@ driver = firefox_setup()
 driver.maximize_window()
 driver.implicitly_wait(30)
 driver.get(url)
-driver.find_element(By.XPATH, "//a[text()='Download sample DOC file']").click()
+driver.find_element(By.XPATH, "//a[text()='Download sample pdf file']").click()
 time.sleep(2)
 
 driver.switch_to.frame("aswift_3")

@@ -83,3 +83,5 @@ element.text
 import time
 
 time.sleep(2) # no. should be in seconds
+
+# download mime type: https://www.sitepoint.com/mime-types-complete-list/

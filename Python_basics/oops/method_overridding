@@ -1,0 +1,15 @@
+class Parent:
+    def display(self):
+        print("Im parent")
+
+
+class Child(Parent):
+    def display(self):
+        print("Im child overloaded method of Parent")
+
+
+p = Parent()
+p.display()  # called parent display()
+
+c = Child()
+c.display()  # called child display()

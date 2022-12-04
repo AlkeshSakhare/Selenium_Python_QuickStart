@@ -8,9 +8,15 @@ pip install webdriver-manager
 
 pip install selenium
 
-pip install pywin32
+pip install pywin32 -> to handle windows exception while doing automation
 
-pip install requests
+pip install requests -> to send http request
+
+pip install mysql-connector-python -> to connect db
+
+pip install -U pytest -> to write unit test
+
+pip install -U openpyxl -> to read / write xlsx file
 
 Demo Site: https://www.selenium.dev/selenium/web/
 

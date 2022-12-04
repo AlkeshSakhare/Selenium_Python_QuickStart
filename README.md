@@ -64,15 +64,15 @@ Ref 5: https://github.com/gunesmes/page-object-python-selenium
 Ref 6: https://selenium-python.readthedocs.io/page-objects.html
 
 Project-Directory
-     |--------- Src
-                    |--------- PageObject
-                                       |--------- Pages
-                                                    |--------- *Page.py (Implementation of methods that make use of the respective Locators declared in Locators.py) 
-                                       |--------- Locators.py
-                    |--------- TestBase
-                                       |--------- WebDriverSetup.py
-     |--------- Test
-                    |--------- Scripts
-                                       |--------- test_*.py (Implementation of test code)(There should be 1:1 mapping of *Page.py and test_*.py as it helps in making the code more modular)
-                    |--------- TestSuite
-                                       |--------- TestRunner.py (contains TestSuite, which is a collection of test cases)
+    |-- Src
+		|-- PageObject
+			|-- Pages
+				|-- *Page.py (Implementation of methods that make use of the respective Locators declared in Locators.py) 
+			|-- Locators.py
+    |-- TestBase
+        |-- WebDriverSetup.py
+		|-- Test
+			|-- Scripts
+				|-- test_*.py (Implementation of test code)(There should be 1:1 mapping of *Page.py and test_*.py as it helps in making the code more modular)
+		|-- TestSuite
+			|-- TestRunner.py (contains TestSuite, which is a collection of test cases)

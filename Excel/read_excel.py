@@ -1,6 +1,6 @@
 import openpyxl
 
-file = "C:/Users/Alkesh/vsc_workspace/Python_Selenium/Read.xlsx"
+file = "C:/Users/Alkesh/vsc_workspace/Python_Selenium/files/   Read.xlsx"
 workbook = openpyxl.load_workbook(file)
 sheet = workbook["Sheet1"]
 rows = sheet.max_row

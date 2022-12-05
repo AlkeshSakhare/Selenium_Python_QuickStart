@@ -3,6 +3,10 @@
 # pip install -U pytest
 # pip install -U openpyxl
 # pip install -U requests
+# pip install pytest-parallel
+# pip install pytest-html
+# pip install pytest-xdist
+
 import time
 
 from selenium import webdriver

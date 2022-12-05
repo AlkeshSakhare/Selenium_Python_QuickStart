@@ -3,8 +3,12 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-# to run => pytest test_pytest_1.py -v
+# to run => pytest test_pytest_1.py -v -s -n 4
 # to generate report => pytest test_pytest_1.py -v -s --html=report.html
+
+# v -> verbose
+# s -> console ouput
+# n -> no of thread for parallel execution
 
 
 def test_verify_title():
